@@ -1,0 +1,89 @@
+@import "./variable.scss";
+
+.top-header {
+  background-color: $main-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  color: $white;
+}
+
+.social {
+  &-list {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 0;
+
+    &__item {
+      list-style: none;
+      width: 24px;
+      height: 24px;
+
+      & img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-list .navbar-brand img {
+  width: 45px;
+  height: 45px;
+  object-fit: cover;
+}
+
+.nav-uper .nav-item {
+  text-transform: uppercase;
+  font-size: 13px;
+  position: relative;
+  margin-right: 4px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: $main-color;
+    transition: 0.8s $transition-cubic;
+  }
+
+  &:hover::after {
+    width: 100%;
+    transition: 0.5s $transition-cubic;
+  }
+}
+
+.top-nav {
+  .dropdown-item {
+    text-transform: capitalize;
+    font-size: 13px;
+  }
+}
+
+.recomend {
+  &__bg {
+    background: url("http://3sdent.com/images/background.png"), center,
+      no-repeat;
+    background-size: cover;
+
+    & h2 {
+      display: block;
+      text-align: center;
+      padding: 88px 0;
+      font-size: 30px;
+      text-transform: uppercase;
+    }
+  }
+}
