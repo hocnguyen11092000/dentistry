@@ -6,7 +6,8 @@
   color: #087ea6;
 }
 
-.custom-talent-title {
+.custom-talent-title,
+.custom-value-title {
   font-weight: 600;
   color: #087ea6;
   font-size: 16px;
