@@ -43,6 +43,10 @@ a {
   margin-bottom: 12px;
 }
 
+.fs-13 {
+  font-size: 13px !important;
+}
+
 .top-header {
   background-color: #087ea6;
   display: -webkit-box;
