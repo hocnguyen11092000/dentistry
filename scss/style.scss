@@ -135,3 +135,15 @@
     }
   }
 }
+
+.footer {
+  background-color: #f8f9fa;
+  opacity: 0.8;
+}
+
+.copy-right {
+  background-color: $main-color;
+  text-align: center;
+  padding: 8px 16px;
+  color: $white;
+}

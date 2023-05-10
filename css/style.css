@@ -129,3 +129,15 @@
   -o-object-fit: cover;
      object-fit: cover;
 }
+
+.footer {
+  background-color: #f8f9fa;
+  opacity: 0.8;
+}
+
+.copy-right {
+  background-color: #087ea6;
+  text-align: center;
+  padding: 8px 16px;
+  color: #fff;
+}
