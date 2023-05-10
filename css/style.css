@@ -6,6 +6,13 @@
   color: #087ea6;
 }
 
+.custom-talent-title {
+  font-weight: 600;
+  color: #087ea6;
+  font-size: 16px;
+  margin-bottom: 12px;
+}
+
 .top-header {
   background-color: #087ea6;
   display: -webkit-box;
