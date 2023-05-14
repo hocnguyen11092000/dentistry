@@ -14,6 +14,53 @@
   margin-bottom: 12px;
 }
 
+.common-btn-main {
+  padding: 8px 12px;
+  border-radius: 10px;
+  background-color: #087ea6;
+  color: #fff;
+  width: auto;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.common-btn-main:active {
+  border: none;
+  outline: none;
+}
+.common-btn-main:hover {
+  opacity: 0.8;
+}
+
+.common-input {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 8px 12px;
+  outline: none;
+}
+
+.hide-text-focus:focus::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.hide-text-focus:focus::-moz-placeholder {
+  color: #fff;
+}
+
+.hide-text-focus:focus:-ms-input-placeholder {
+  color: #fff;
+}
+
+.hide-text-focus:focus::-ms-input-placeholder {
+  color: #fff;
+}
+
+.hide-text-focus:focus::placeholder {
+  color: #fff;
+}
+
 .fs-13 {
   font-size: 13px !important;
 }
@@ -100,16 +147,25 @@
   font-size: 13px;
 }
 
-.recomend__bg {
+.top-banner__bg {
   background: url("http://3sdent.com/images/background.png"), center, no-repeat;
   background-size: cover;
 }
-.recomend__bg h2 {
+.top-banner__bg h2 {
   display: block;
   text-align: center;
   padding: 88px 0;
   font-size: 30px;
   text-transform: uppercase;
+}
+.top-banner__intro {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #8c8c8c;
+  font-size: 13px;
 }
 
 .about-us__info strong {
@@ -144,4 +200,51 @@
   text-align: center;
   padding: 8px 16px;
   color: #fff;
+}
+
+.product-container .product-list .product-block {
+  padding: 16px;
+  background-color: #fff;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.product-container .product-list .product-block__image {
+  width: 100%;
+}
+.product-container .product-list .product-block__image img {
+  width: 100%;
+  border-radius: 8px;
+}
+.product-container .product-list .product-block__desc {
+  font-size: 14px;
+}
+
+.warranty-lookup__container {
+  width: 60%;
+  padding: 20px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  margin: auto;
+}
+.warranty-lookup__result-wrapper {
+  padding: 20px;
+  padding-top: 32px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
 }
